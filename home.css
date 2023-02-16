@@ -1,0 +1,72 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: #000000;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #e6e4e4;
+}
+.home-container1 {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  padding: 0px;
+  position: relative;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-threeunits);
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.home-container2 {
+  left: 0px;
+  width: 500px;
+  bottom: 24px;
+  height: 152px;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/playground_assets/elephants2-200h.jpeg");
+  background-position: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.home-text {
+  top: 40px;
+  left: 20px;
+  color: rgb(245, 230, 230);
+  height: 25px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-heading {
+  top: 80px;
+  left: 20px;
+  color: #ececef;
+  height: 25px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+}
